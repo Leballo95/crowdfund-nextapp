@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+ background-color: #fff;
+ color: black;
+ 
+   
+}
+
+.nav li{
+    transition: ease-in-out 0.3s;
+    padding: 6px 6px ;
+    border-radius: 10px;
+}
+.nav li:hover{
+    background-color: hsla(210, 78%, 51%, 0.5)
+
+}
+
+.nav ul{
+    list-style: none;
+    margin-right: 1em;
+
+}
+.options{
+    display :flex;
+    justify-content: space-around;
+   
+    margin-block: auto;
+    
+    
+    
+}
+
+
+.navSearch{
+    
+    display: grid;
+    grid-template-columns: 3fr 0.5fr;
+}
+.navSearch input{
+    font-family: inherit;
+    
+}
